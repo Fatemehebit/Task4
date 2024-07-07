@@ -1,0 +1,612 @@
+@font-face {
+    font-family: 'IRANSans';
+    src: url('./Font/IRANSansXRegular.ttf');
+}
+
+@font-face {
+    font-family: 'Estedad';
+    src: url('./Font/Estedad-V0.7A_p30download.com.ttf');
+}
+
+@font-face {
+    font-family: 'B Yekan';
+    src: url('./Font/B\ Yekan.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IRANSANS';
+    
+}
+
+.header-content{
+    margin: 1rem 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.sign-in-Btn a{
+    font-family: 'IRANSans';
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgba(29, 155, 240, 1);
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 16px;
+    padding: .3rem 2.5rem;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-list .courses a{
+    text-decoration: none;
+    font-family: 'Estedad';
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(42, 160, 239, 1);
+    margin-right: 2rem;
+}
+
+.header-list .border-courses{
+    border: 1px solid rgba(29, 155, 240, 1);
+    max-width: 30%;
+    margin-top: .3rem;
+    margin-left: .4rem;
+}
+
+.header-list .main-page a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Estedad';
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* -----main----- */
+
+.info-content{
+    max-width: 75%;
+    margin: auto;
+    padding: 3rem 0;
+    margin-top: 4rem;
+    border: 1px solid rgba(250, 251, 255, 1);
+    box-shadow: 0px 25px 32px 9px rgba(60, 85, 122, 0.06);
+    border-radius: 32px;
+}
+
+.info-Mehdi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.log-out-Btn a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(201, 67, 51, 1);
+    padding: .3rem 2.5rem;
+    border: 1px solid rgba(201, 67, 51, 1);
+    border-radius: 16px;
+}
+
+.info{
+    margin-top: -1.5rem;
+}
+
+.info h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.info p{
+    font-family: 'B Yekan';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Mycourses-Btn a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(29, 155, 240, 1);
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 16px;
+    padding: .3rem 1.7rem;
+}
+
+.border-Mehdi{
+    border-bottom: 1px solid rgba(29, 155, 240, 1);
+    width: 69%;
+    display: flex;
+    margin: auto;
+}
+
+.info-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.card{
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 16px;
+    padding-bottom: 1rem;
+}
+
+.card:nth-child(2){
+    margin: 0 2rem;
+    box-shadow: 0px 4px 55px 17px rgba(57, 63, 71, 0.07);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.card img{
+    transform: translate(0%, -28%);
+    max-width: 227px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 54.51%, #FFFFFF 94.55%);
+
+}
+
+.learn-courses a{
+    color: rgba(71, 71, 71, 1);
+    text-decoration: none;
+    font-family: 'B Yekan';
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(231, 236, 238, 1);
+    background-color: rgba(231, 236, 238, 1);
+    padding: .5rem 1.5rem;
+    border-radius: 8px;
+}
+
+.learn-courses{
+    margin-bottom: 1.5rem;
+}
+
+.show-courses a{
+    text-decoration: none;
+    font-family: 'IRANSans';
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 8px;
+    background-color: rgba(29, 155, 240, 1);
+    padding: .3rem 4.2em;
+}
+
+/* --------------------------- */
+
+.learn-Tavarom{
+    margin: 4rem auto;
+    max-width: 75%;
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 25px 32px 9px rgba(60, 85, 122, 0.06);
+    padding: 1rem;
+}
+
+.video-learn{
+    max-width: 55%;
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 16px;
+}
+
+.video-img{
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    aspect-ratio: 14 / 11;
+    object-fit: cover;
+    /* background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 54.51%, #FFFFFF 94.55%); */
+}
+
+.box-video{
+    position: absolute;
+    z-index: 2;
+    width: 166px;
+    height: 164px;
+    filter: blur(4px);
+    transform: translate(119%, -186%);
+    background: rgba(255, 255, 255, 0.47);
+    border: 1px solid rgba(255, 255, 255, 0.47);
+    border-radius: 16px;
+}
+
+.play-arrow{
+    width: 88px;
+    position: absolute;
+    z-index: 3;
+    filter: none;
+    transform: translate(-377%, 214%);
+}
+
+.detail-course{
+    max-width: 45%;
+}
+
+.close-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.material-symbols-outlined{
+    color: rgba(201, 67, 51, 1);
+    border: 1px solid rgba(201, 67, 51, 1);
+    border-radius: 50%;
+}
+
+.close-title h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.time-courses{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.time-course{
+    max-width: 85%;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.time-period a{
+    text-decoration: none;
+    font-family: 'B Yekan';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(38, 70, 83, 1);
+    border: 1px solid rgba(231, 236, 238, 1);
+    border-radius: 8px;
+    background-color: rgba(231, 236, 238, 1);
+    padding: .5rem 1.5rem;
+}
+
+.time-session a{
+    text-decoration: none;
+    font-family: 'B Yekan';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(38, 70, 83, 1);
+    border: 1px solid rgba(231, 236, 238, 1);
+    border-radius: 8px;
+    background-color: rgba(231, 236, 238, 1);
+    padding: .5rem 1.5rem;
+    margin-right: .5rem;
+}
+
+.time-periods a{
+    text-decoration: none;
+    font-family: 'B Yekan';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(38, 70, 83, 1);
+    border: 1px solid rgba(231, 236, 238, 1);
+    border-radius: 8px;
+    background-color: rgba(231, 236, 238, 1);
+    padding: .5rem 3.5rem;
+}
+
+.time-sessions a{
+    text-decoration: none;
+    font-family: 'B Yekan';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(38, 70, 83, 1);
+    border: 1px solid rgba(231, 236, 238, 1);
+    border-radius: 8px;
+    background-color: rgba(231, 236, 238, 1);
+    padding: .5rem 1.5rem;
+}
+
+.sessions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sessions ul{
+    max-height: 300px;
+    overflow: auto;
+}
+
+.sessions ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 8px;
+    padding: .5rem 6.5rem;
+    
+}
+
+.sessions ul li:nth-child(1){
+    background-color: rgba(29, 155, 240, 1);
+}
+
+.sessions ul li:nth-child(1) a{
+    color: #FFFFFF;
+}
+
+.sessions ul li:nth-child(2){
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 25px 32px 9px rgba(60, 85, 122, 0.06);
+}
+
+.sessions ul li:nth-child(3){
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 25px 17px rgba(57, 63, 71, 0.07);
+    border: 1px solid #FFFFFF;
+}
+
+.sessions ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.arrow-img{
+    width: 14px;
+    transform: rotate(90deg);
+}
+
+/* ------------------------ */
+
+.buy-course{
+    margin: 4rem auto;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 25px 32px 9px rgba(60, 85, 122, 0.06);
+    padding: 1rem;
+}
+
+.about-course{
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 8px;
+    max-width: 95%;
+    margin: 4rem auto;
+    padding: 1rem 0;
+}
+
+.first-about-course h3{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.quotation{
+    width: 17px;
+}
+
+.first-about-course{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+
+.about-course p{
+    margin: auto;
+    margin-bottom: .7rem;
+    max-width: 90%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.91px;
+    text-align: right;
+    direction: rtl;
+}
+
+.price{
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 8px;
+    padding: 1rem .2rem;
+}
+
+.real-price{
+    direction: rtl;
+    text-decoration: line-through;
+    color: rgba(169, 169, 169, 1);
+}
+
+.sale-price{
+    direction: rtl;
+}
+
+.price-said{
+    direction: rtl;
+}
+
+.Buy-course-Btn{
+    max-width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.show-free a{
+    text-decoration: none;
+    color: rgba(29, 155, 240, 1);
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 8px;
+    padding: .5rem 2.5rem;
+}
+
+.buy-Btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: rgba(29, 155, 240, 1);
+    border: 1px solid rgba(29, 155, 240, 1);
+    border-radius: 8px;
+    padding: .5rem 4rem;
+}
+
+/* --------------------------------- */
+
+footer{
+    max-width: 75%;
+    max-height: 236px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(251.89deg, #1D9BF0 9.97%, #B3E0EE 99.48%);
+    border-radius: 16px;
+}
+
+.about{
+    max-width: 27%;
+}
+
+.about p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.04px;
+    text-align: right;
+    direction: rtl;
+    color: #FFFFFF;
+}
+
+.free-course{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.choice-free a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    padding: .5rem 3rem .5rem .7rem;
+}
+
+.choice-courses{
+    transform: translate(66%, 48%);
+}
+
+.choice-courses a{
+    position: relative;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(29, 155, 240, 1);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: .5rem 1.5rem;
+
+}
+
+.contact-us{
+    max-width: 33%;
+}
+
+.contact-us ul{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.contact-us ul li{
+    list-style-type: none;
+    direction: rtl;
+    margin-bottom: 1rem;
+}
+
+.contact-us ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.04px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.contact-us ul li h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.04px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.contact-us ul li p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.91px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.insta{
+    width: 22px;
+    margin-left: .2rem;
+}
+
+.insta-page{
+    display: flex;
+    align-items: center;
+}
+
+.about-img{
+    max-width: 33%;
+    transform: translate(-9%, -15%);
+}
+
+.about-img img{
+    max-width: 100%;
+}
